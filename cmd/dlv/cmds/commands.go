@@ -1026,6 +1026,7 @@ func execute(attachPid int, processArgs []string, conf *config.Config, coreFile 
 			Listener:           listener,
 			ProcessArgs:        processArgs,
 			AcceptMulti:        acceptMulti,
+			Headless:           headless,
 			APIVersion:         apiVersion,
 			CheckLocalConnUser: checkLocalConnUser,
 			DisconnectChan:     disconnectChan,
